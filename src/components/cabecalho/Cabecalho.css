@@ -1,0 +1,65 @@
+.cabecalho{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.0em;
+    height: 2.8em;
+}
+
+.cabecalho h1{
+    margin-left: 1%;
+}
+
+.cabecalho a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    margin-right: 29%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.pesquisa{
+    margin-right: 2%;
+}
+
+.pesquisa input{
+    height: 2.5em;
+    width: 15em;
+    
+}
+
+.pesquisa button{
+    margin-left: 15px;
+    height: 2.5em;
+    width: 5.5em;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/* deixando responsivo para celular */
+
+.menu-icon {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+   
+}
+
